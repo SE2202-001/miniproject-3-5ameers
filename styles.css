@@ -1,0 +1,159 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styles */
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+/* Controls Section */
+#controls {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 850px;
+    margin-bottom: 40px;
+}
+
+#controls label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #34495e;
+    margin-right: 10px;
+}
+
+#controls input, 
+#controls select {
+    padding: 12px;
+    margin-top: 8px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+#controls input[type="file"] {
+    width: auto;
+}
+
+#controls select:focus, 
+#controls input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Job List Styles */
+#job-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 850px;
+    margin-top: 40px;
+}
+
+#job-list p {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+}
+
+/* Job Item Styles */
+.job {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.job:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.job h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.job p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #controls {
+        padding: 15px;
+    }
+
+    #controls input, 
+    #controls select, 
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #job-list {
+        padding: 10px;
+    }
+
+    .job {
+        padding: 12px;
+        margin-bottom: 8px;
+    }
+}

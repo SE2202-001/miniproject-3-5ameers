@@ -78,3 +78,7 @@ The grading will be based on the successful implementation of each feature as de
 1. Push code files containing the required functionality to your repository.
 2. Publish the index.html file as done in Tutorial 1, and submit the link to your repository on OWL. 
 3. We recommend separating your JavaScript code and HTML code for better clarity and maintainability. 
+
+Sameer Shah
+sshah534@uwo.ca
+251342533
